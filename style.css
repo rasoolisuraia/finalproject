@@ -83,10 +83,10 @@ nav a:hover{
  .dropbtn {
   background-color: #4CAF50;
   color: white;
-  padding: 16px 24px;
   font-size: 16px;
   border: none;
   cursor: pointer;
+  height: 40px;
 }
 .dropdown-content{
   display: none;
@@ -431,9 +431,12 @@ border-top-right-radius: 50px 20px;
   margin-top: 12px;
  }
 .butn-text2{
-  color: rgb(16, 16, 16);
+  color: white;
   font-size: 16px;
   text-decoration: none;
+}
+.butn-text2:hover{
+  color: #2f2f2f;
 }
 .sub-button:hover {
   background-color: white;
@@ -649,6 +652,7 @@ form{
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
+    width: 40%;
   }
   .heading {
     font-size:16px;
@@ -667,7 +671,7 @@ form{
   .search-bar input {
     padding: 10px;
     border-radius: 10px;
-    width: 60px;
+    width: 70px;
   }
   nav ul li {
     display: none;
@@ -677,14 +681,10 @@ form{
   display: block;
 } */
   .dropbtn {
-    background-color: #4caf50;
-    color: white;
-    padding: 16px 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 80px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    text-align: center;
+   
   }
 
   .dropdown {
@@ -796,7 +796,6 @@ form{
       width: 90%;
       height: auto;
       margin: auto;
-      /* margin-top: 50px; */
       flex-direction: column;
       align-items: center;
     }
@@ -861,12 +860,19 @@ form{
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
+  .text2{
+    font-size: 16px;
+    margin-top: 35px;
+    font-weight: 500;
+    margin-left: 17px;
+    margin-bottom: 20px;
+  }
    /* Section 4 */
   .sub-container4 {
     width: 100%;
     height: auto;
-    /* margin-top: 20px; */
-    margin: auto;
+    margin-top: 10px;
+    margin-left: 20px;
     justify-content: center;
     column-gap: 10px;
   }
@@ -875,18 +881,20 @@ form{
     height: auto;
     padding: 10px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    /* margin-top: 20px; */
   }
   .part1 {
     padding: 10px;
+    width: 80%;
   }
   .part2 {
     flex-direction: column;
     align-items: center;
     display: flex;
-    gap: 10px;
+    /* gap: 10px; */
   }
   .part4 {
-    width: 100%;
+    width: 50%;
     margin-left: 0;
     text-align: center;
     margin-bottom: 10px;
@@ -896,13 +904,16 @@ form{
     height: auto;
     padding: 10px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
-    display: none;
+    /* display: none; */
   }
   .video2 {
     /* width: 100%; */
     height: auto;
     margin-left: 0;
-    
+  }
+  .sub-button1{
+    width: 30%;
+    margin-right:90px;
   }
 
   .part5 {
@@ -912,13 +923,17 @@ form{
   .part6 {
     flex-direction: column;
     justify-content: center;
+    text-align: right;
   }
   .part7 {
     text-align: center;
+    flex-direction: column;
   }
   .part8 {
-    width: 100%;
-  }
+    width:50%;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    }
   .butn-text2 {
     font-size: 14px;
   }
@@ -929,6 +944,7 @@ form{
   }
   .part9 {
     padding: 10px;
+    width: 80%;
   }
   .part10 {
     flex-direction: column;
@@ -938,8 +954,9 @@ form{
     text-align: center;
   }
   .part12 {
-    width: 100%;
+    width:50%;
     margin-left: 0;
+    text-align: center;
   }
 
   .butn-text3 {
@@ -974,6 +991,7 @@ form{
     .title {
       margin-top: 15px;
       margin-left: 15px;
+      font-weight: 500;
     }
   
     form {
